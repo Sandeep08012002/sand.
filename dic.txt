@@ -46,6 +46,38 @@ def doar():
 doar()
 
  assignment 3
- the r+ does both reading and writing operation 
- the w + does both writing and reading operation
- the a + does uodating and reading the value
+the r+ does both reading and writing operation 
+
+a = open("myfile.txt","r")
+print(a.read())
+a.close()
+
+a = open("myfile.txt","r+")
+print(a.write("my name is sandeep"))
+a.close()
+
+a = open("myfile.txt","r")
+print(a.read())
+a.close()
+
+the w + does both writing and reading operation
+
+a = open("myfile.txt","w+")
+print(a.write("iam from bangalore"))
+a.close()
+
+
+a=open("myfile.txt",w+)
+print(a.read())
+a.close()
+
+
+a= open("myfile.txt","a")
+print(a.write("python branch ))
+a.close()
+
+a = open("myfile.txt","a+")
+print(a.read())
+a.close()
+
+
