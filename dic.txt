@@ -1,0 +1,46 @@
+mylist_1=[1,2,3,4,5,6]
+mylist_2=[2,3]
+mylist_3=mylist_1<mylist_2
+print(mylist_3)
+mylist_4=mylist_1>mylist_2
+print(mylist_4)
+mylist_5=mylist_1<=mylist_2
+print(mylist_5)
+mylist_6=mylist_1>=mylist_2
+print(mylist_6)
+mylist_7=mylist_1==mylist_2
+print(mylist_7)
+mylist_8=mylist_7 is not mylist_2 
+print(mylist_8)
+mylist_9=mylist_1+mylist_2
+print(mylist_9)
+mylist_01=mylist_1 is mylist_2
+print(mylist_01)
+
+tuple_1=(19,34,45,56,78,97)
+tuple_2=(23,11,12,23,32,43)
+tuple_3=tuple_1<tuple_2
+print(tuple_3)
+tuple_31=tuple_1>tuple_2
+print(tuple_31)
+
+set_1={10,23,45,54,67}
+set_2={20,25,30,40,10}
+set_3=set_1<set_2
+print(set_3)
+
+dic= {"value":21,"sap":12,"pas":456}
+print(dic)
+dic["value"]= 22
+print(dic)
+myiteration=(iter(dic))
+print(next(myiteration))
+print(next(myiteration))
+print(next(myiteration))
+
+
+def doar():
+  x=int(input("enter the first number:"))
+  y=int(input("enter the second value:"))
+  print("the value is :",(x-y))
+doar()
