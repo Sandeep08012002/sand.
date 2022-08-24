@@ -38,9 +38,14 @@ print(next(myiteration))
 print(next(myiteration))
 print(next(myiteration))
 
-
+assignment 2
 def doar():
   x=int(input("enter the first number:"))
   y=int(input("enter the second value:"))
   print("the value is :",(x-y))
 doar()
+
+ assignment 3
+ the r+ does both reading and writing operation 
+ the w + does both writing and reading operation
+ the a + does uodating and reading the value
